@@ -30,4 +30,4 @@ I use the gallery to show the latest images and videos associated with movements
 
 # Example of visualization
 
-/ejemplo.jpg
+(/ejemplo.jpg)
