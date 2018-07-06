@@ -18,6 +18,10 @@ Using two .sh scripts that are provided it is possible to add and remove images 
 
 I use the gallery to show the latest images and videos associated with movements in the motion application , when motion is detect I move image and the video file with best movement to galery and insert one line to .json file.
 
+The file [subirdropbox.sh](/scriptdropbox/subirdropbox.sh) is used in motion.conf like this:
+
+on_movie_end sudo bash /home/homeassistant/dropbox/scriptdropbox/subirdropbox.sh %f cam1
+
 # Instalation
 
 - Copy repository content in .homeassistant folder
