@@ -1,0 +1,8 @@
+  - name: movimiento
+    sidebar_title: Movimiento
+    sidebar_icon: mdi:file-video
+    url_path: movimiento
+  - name: galeria
+    sidebar_title: Galeria
+    sidebar_icon: mdi:file-video
+    url_path: galeria
