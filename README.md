@@ -32,4 +32,7 @@ I use the gallery to show the latest images and videos associated with movements
 
 ![Ejemplo](/Ejemplo.jpg)
 
+# Example of video (click on image)
+
+![video](/video.jpg)
 
