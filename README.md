@@ -1,6 +1,6 @@
 # hass-gallery
 
-#<SPAGUETTI CODE INSIDE> The purist programmers must stay away for the sake of their mental health
+# <SPAGUETTI CODE INSIDE> The purist programmers must stay away for the sake of their mental health
 
 One image/video gallery for integrate in Hass like a panel
 
