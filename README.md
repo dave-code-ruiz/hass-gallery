@@ -32,4 +32,4 @@ I use the gallery to show the latest images and videos associated with movements
 
 ![Ejemplo](/Ejemplo.jpg)
 
-Start [here](/Ejemplo.jpg)
+
