@@ -27,3 +27,7 @@ I use the gallery to show the latest images and videos associated with movements
   panel_custom: !include panel_custom.yaml
 
 # NOTE: I have no intention of maintaining or improving the repository, I only share it if it is useful, I will gladly accept the contributions of other users to improve the repository, is at a very early version
+
+# Example of visualization
+
+/ejemplo.jpg
