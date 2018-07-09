@@ -22,6 +22,8 @@ The file [subirdropbox.sh](/scriptdropbox/subirdropbox.sh) is used in motion.con
 
 on_movie_end sudo bash /home/homeassistant/dropbox/scriptdropbox/subirdropbox.sh %f cam1
 
+I use [dropbox-uploader.sh](https://github.com/andreafabrizi/Dropbox-Uploader) for upload files to dropbox
+
 With this script i upload to dropbox and www folder all files of motion, then i drop files in dropbox for 2 days and in local gallery for 6 days
 
 # Instalation
