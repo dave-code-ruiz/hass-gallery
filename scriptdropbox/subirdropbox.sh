@@ -25,13 +25,13 @@ sudo mv ${fichero} ${carpeta}/${hoy}/${camara}/${hora}.mp4
 
 separador="${fichero%-*}"
 id=${separador##*-}
-sudo bash ${carpetascr}/dropbox_uploader.sh upload /tmp/motion/${camara}/*${hoy}*${id}* DeteccionMovimiento/${hoy}/${camara}/${hora}.jpg
+sudo bash ${carpetascr}/dropbox_uploader.sh upload /tmp/motion/${camara}/*${hoy}*-${id}-* DeteccionMovimiento/${hoy}/${camara}/${hora}.jpg
 wait
-sudo cp -rf /tmp/motion/${camara}/*${hoy}*${id}* ${carpetawww}/${camara}/${hora}.jpg
+sudo cp -rf /tmp/motion/${camara}/*${hoy}*-${id}-* ${carpetawww}/${camara}/${hora}.jpg
 echo ${id} ${hora}.jpg ${hora} ${hora}.mp4 ${carpetawww}/${camara}/${camara}.json
 sudo bash ${carpetascr}/insertarlineajson.sh ${hora}.jpg ${hora} ${hora}.mp4 ${carpetawww}/${camara}/${camara}.json
 wait
-sudo mv /tmp/motion/${camara}/*${hoy}*${id}* ${carpeta}/${hoy}/${camara}/${hora}.jpg
+sudo mv /tmp/motion/${camara}/*${hoy}*-${id}-* ${carpeta}/${hoy}/${camara}/${hora}.jpg
 
 sudo bash ${carpetascr}/eliminarlineajson.sh ${borrado} ${carpetawww}/${camara}/${camara}.json
 sudo rm ${carpetawww}/${camara}/${borrado}_*
