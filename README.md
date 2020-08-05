@@ -2,6 +2,8 @@
 
 # <SPAGUETTI CODE INSIDE> The purist programmers must stay away for the sake of their mental health
 
+# I recomended use this other repository: https://github.com/TarheelGrad1998/GalleryPanel
+
 Sorry for my English
 
 One image/video gallery for integrate in Hass like a panel
